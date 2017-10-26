@@ -39,6 +39,8 @@ GEM
     arel (6.0.4)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.2.0.2)
+      sass (~> 3.2)
     builder (3.2.3)
     byebug (9.1.0)
     coffee-rails (4.1.1)
@@ -160,6 +162,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (= 3.2.0.2)
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
@@ -167,7 +170,7 @@ DEPENDENCIES
   pg
   rails (= 4.2.5)
   rails_12factor
-  sass-rails (~> 5.0)
+  sass-rails (>= 3.2)
   sdoc (~> 0.4.0)
   spring
   sqlite3
